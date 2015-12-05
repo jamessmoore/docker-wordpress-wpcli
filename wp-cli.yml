@@ -1,0 +1,13 @@
+path: wp-core
+url: http://demo.example.com:8080
+user: admin
+color: false
+disabled_commands:
+  - db drop
+
+core config:
+	dbuser: root
+	dbpass: mySqlPassword
+	extra-php: |
+		define( 'WP_DEBUG', true );
+		define( 'WP_POST_REVISIONS', 50 );
