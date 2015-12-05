@@ -1,8 +1,8 @@
 #!/bin/bash
 
 wp core install --allow-root \
-	--url="http://demo.ohmydocker.com:8080" \
-        --title="Food Industry Self Insurance Fund of New Mexico" \
-        --admin_user="fisifadmin" \
+	--url="http://demo.example.com:8080" \
+        --title="OhMy Website Title" \
+        --admin_user="customadmin" \
         --admin_password="testing123" \
-        --admin_email="testing@webtechhq.com";
+        --admin_email="testing@example.com";
